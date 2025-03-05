@@ -1,0 +1,68 @@
+/* General Styles */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+/* Header Styles */
+header {
+  padding: 20px;
+  background-color: #333;
+  color: white;
+}
+
+/* Navigation Button Styles */
+nav a {
+  text-decoration: none;
+  margin: 0 10px;
+}
+
+nav button {
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 16px;
+  background-color: #555;
+  color: white;
+  transition: background-color 0.3s ease;
+}
+
+nav button:hover {
+  background-color: #777;
+}
+
+/* Main Content Styles */
+main {
+  padding: 20px;
+}
+
+/* Footer Button Styles */
+footer button {
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 16px;
+  background-color: #555;
+  color: white;
+  transition: background-color 0.3s ease;
+}
+
+footer button:hover {
+  background-color: #777;
+}
+
+/* Section-Specific Background Colors */
+body.section1 {
+  background-color: #ffcccc; /* Light Pink */
+}
+
+body.section2 {
+  background-color: #ccffcc; /* Light Green */
+}
+
+body.section3 {
+  background-color: #ccccff; /* Light Blue */
+}
